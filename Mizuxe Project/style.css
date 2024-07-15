@@ -1,0 +1,38 @@
+.modifyhome{
+    background-image: linear-gradient(rgba(50, 141, 136, 0.7),rgba(50, 143, 138, 0.7)),url("mountains.jpg");
+    width: auto;
+    height: auto;
+    background-size: cover;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+}
+
+.contentborder{
+    border: 1px solid rgb(50, 141, 136);
+}
+
+.accordionbackground{
+    background-color: rgba(42, 117, 73, 0.6);
+}
+
+.modifyaccordion{
+    background-image: linear-gradient(rgba(42, 117, 73, 0.7),rgba(42, 117, 73, 0.7)),url("https://media.istockphoto.com/photos/bamboo-forest-picture-id528745525?k=20&m=528745525&s=612x612&w=0&h=CMVkPnUSwE6lqbvqvPSftJeEEUvdkNqeNnge3v077O0=");
+    width: auto;
+    height: auto;
+    background-size: cover;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+}
+
+#whythebookcontent{
+    background-color: rgba(181,167,134.0.7);
+}
+.author{
+    background-color:rgba(50, 141, 136, 0.9);
+    color: white;
+    
+}
+.modifygetintouch{
+    background-color: #4B4453;
+    color: white;
+}
