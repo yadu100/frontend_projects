@@ -1,0 +1,26 @@
+#navigation{
+    background-color: rgba(64, 64, 64, 0.7);
+    border-width: 200px;
+}
+.bg-overlay{
+    background-image: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)),url("home.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+}
+#homepageitems{
+    margin-top: 95px;
+    
+}
+#exploreregion{
+    margin-top: 60px;
+}
+.textchange{
+    font-family: 'Pushster', cursive;
+    font-size: large;
+}
+.brandnametxtchange{
+    font-family: 'Rock 3D', cursive;
+}
+

@@ -1,0 +1,119 @@
+.carousel-caption {
+    top: 125px;
+    bottom: auto;
+   
+}
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+    width: 100%;
+}
+
+.carousel-item img {
+    max-height: 650px;
+  }
+ 
+  #part1{
+    background-color: #FFF6FF;
+  }
+  #part2{
+      background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("img/lights.jpg");
+      background-repeat: no-repeat;
+      background-position: center center;
+      padding-top: 50px;
+      background-attachment: fixed;
+  }
+  #part3{
+      background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("img/media.jpg");
+      background-repeat: no-repeat;
+      background-position: center center;
+      padding-top: 50px;
+      background-attachment: fixed;
+  }
+
+  #part4{
+    margin-top: 70px;
+    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url("img/image1.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding-top: 50px;
+    background-attachment: fixed;
+  }
+  /* From cssbuttons.io by @adamgiebl */
+/* From cssbuttons.io by @adamgiebl */
+button {
+    font-family: inherit;
+    font-size: 15px;
+    background: #FBFBFB;
+    color: #363636;
+    padding: 0.7em 1em;
+    padding-left: 0.9em;
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: all 0.2s;
+   }
+   
+   button span {
+    display: block;
+    margin-left: 0.3em;
+    transition: all 0.3s ease-in-out;
+   }
+   
+   button svg {
+    display: block;
+    transform-origin: center center;
+    transition: transform 0.3s ease-in-out;
+   }
+
+   button:hover{
+       background: #38C416;
+   }
+   
+   button:hover .svg-wrapper {
+       fill: white;
+       
+    animation: fly-1 0.6s ease-in-out infinite alternate;
+   }
+   
+   button:hover svg {
+    transform: translateX(1.8em) rotate(45deg) scale(1.1);
+    
+   }
+   
+   button:hover span {
+    transform: translateX(5em);
+   }
+   
+   button:active {
+    transform: scale(0.95);
+   }
+   
+   @keyframes fly-1 {
+    from {
+     transform: translateY(0.1em);
+    }
+   
+    to {
+     transform: translateY(-0.1em);
+    }
+   }
+
+   #googleplay:hover{
+       padding: 2px;
+    animation: fly-1 0.8s ease-in-out infinite alternate;
+   }
+
+   #part99{
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("https://insights.adaptiva.com/wp-content/upnolib/blog/2016-05-27-ConfigMgr-QA.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding-top: 100px;
+    background-attachment: fixed;
+}
+
+
+   
+   
+   
+   
